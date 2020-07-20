@@ -1,0 +1,72 @@
+
+
+
+/*grouped selector*/
+#wholeDiv,.gray,.Division{
+background-color: pink;
+
+}
+
+
+/*ID selector*/
+#body
+{
+	background-color: black;
+}
+
+
+
+/*ELEMENT SELECTOR*/
+p{ 
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	/*width: 200px;*/
+	background-color: black;
+	opacity: 0.7;
+}
+h1
+{
+	color: purple;
+	text-align: center;
+}
+/*CLASS SELECTOR*/
+
+.gray
+{
+	color: gray;
+	font-family: fantasy;
+}
+
+
+
+
+/*combining selector*/
+
+
+/*element having specific class*/
+p.boldHTMLSkill
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+/*EvERY 'A' that is direct child of 'B' B > A { ... }*/
+
+section > p 
+{
+	background-color: green;
+}
+
+/*Every 'A' that is inside 'B' B A{...}*/
+
+div span
+{
+	font-weight: bold;
+	background-color: blue;
+}
+
+/* .Division P{...} article > .Division{...} */
+/*	also ADJACENT SELECTOR (A + B )
+	also GENERAL SELECTOR (A~B)
+*/
+
