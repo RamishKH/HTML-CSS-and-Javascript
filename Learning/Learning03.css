@@ -47,7 +47,7 @@ section div:nth-child(odd)
 section div:nth-child(3):hover
 {
 	background-color: purple;
-	cursor: pointer;
+	cursor:crosshair;
 }
 section:hover div:nth-child(even)
 {

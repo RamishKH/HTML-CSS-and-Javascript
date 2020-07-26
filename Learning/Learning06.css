@@ -1,0 +1,52 @@
+/*@media(min-width: 111px) and @media(max-width: 111px){} for and*/ 
+/*@media(min-width: 111px) , @media(max-width: 111px){} for or*/ 
+/*BASE STYLE*/
+*
+{
+	box-sizing: border-box;
+}
+p
+{
+	margin:15px;
+}
+
+#p1
+{
+	width: 300px;
+	height: 300px;
+	background-color: pink;
+}
+#p2
+{
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+}
+/*for Large devices*/
+@media(min-width: 1200px)
+{
+	#p1
+	{
+		border: black 3px solid;
+	}
+	#p2
+	{
+		border: black 3px solid;
+	}
+}
+/*mid tier devices*/
+@media (min-width:992px) and (max-width: 1199px)
+{
+	body
+	{
+		background-color: red;
+	}
+	#p1
+	{
+		width: 50%;
+	}
+	#p2
+	{
+		width:110px;
+	}	
+}
